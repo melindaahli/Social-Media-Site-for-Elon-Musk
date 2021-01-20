@@ -1,0 +1,49 @@
+img {
+    height: 200px;
+    width: 250px;
+    border: solid black 5px;
+}
+
+.blue {
+    border: inset #44aed6 20px;
+    background-color: #9CDCFF;
+    margin: 20px;
+    padding: 10px;
+}
+
+.posts {}
+
+p {
+    font-size: 20px;
+    font-family: Source Sans Pro;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background: linear-gradient(-45deg, #76D7C4, #85C1E9, #C39BD3, #F56E6E, #F56E6E);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.items:hover {
+    background-color: transparent;
+    border: solid black 1px;
+}
